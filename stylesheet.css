@@ -1,0 +1,74 @@
+/* universal style */
+* {
+  /*Shorthand property*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body style */
+body {
+  font-family: Arial, sans-serif;
+  padding: 1.2rem 2.2rem;
+}
+
+/* figure style */
+figure {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  border: 2px solid black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* figurecaption */
+figcaption {
+  text-align: left;
+  padding: 10px;
+  color: black;
+}
+
+/* Image 1 specific styles */
+.image1 {
+  background-image: url("./bg.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Image 2 specific styles */
+.image2 {
+  position: relative;
+  overflow: hidden;
+}
+
+.image2 section {
+  background-image: url("./bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+}
+
+/* Image 3 specific styles */
+.image3 {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image3 img {
+  width: 450px;
+  height: 300px;
+  object-fit: contain;
+}
